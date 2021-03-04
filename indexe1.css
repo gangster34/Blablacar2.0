@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.intro{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("106425.jpg");
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20%;
+}
+.content h1{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 600%;
+  font-weight: 100;
+  color: #fff;
+  line-height: 70%;
+}
+.bouton{
+  margin-top: 20px;
+}
+.button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 135%;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid #fff;
+  padding: 10px 20px;
+  border-radius: 9px;
+  transition: all 0.5s;
+}
+.button:hover{
+  color: #000;
+  border: solid #000 2px;
+}
+#car{
+  margin-top: 20px;
+  margin-left: 140px;
+  position: block;
+  display: flow-root;
+  width: 320px;
+}
+.container{
+  margin-bottom: 100px;
+}
+#momo {
+  position: relative;
+  max-width: 350px;
+  border-radius: 10px;
+  font-family:raleway;
+  border: 2px solid #ccc;
+  padding: 10px 40px 25px;
+  margin-top: 70px;
+  min-height: 400px;
+}
+#trajet , #membre{
+float: left;
+margin: 20px 10px 0 0;
+}
+.form-group{
+  margin-bottom: 30px;
+}
+#Recherche_Depart{
+  margin-top: 30px;
+}
+.toto{
+  position: relative;
+  padding-left: 5px;
+  min-height: 420px;
+  min-width: 400px;
+  margin-top: 70px;
+  border: 2px solid #ccc;
+  padding: 10px 40px 25px;
+  border-radius: 10px;
+}
+.TexteBoite{
+  text-decoration: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  width: 240px;
+}
+/*          Media           */
+@Media screen and (max-width: 900px) {
+  .content{
+    padding-bottom: 30%;
+  }
+  .content h1 {
+    font-size: 450%;
+  }
+  .button{
+    font-size: 130%;
+    padding: 9px 17px;
+  }
+}
+@Media screen and (max-width: 768px) {
+  .content{
+    padding-bottom: 40%;
+  }
+  .content h1 {
+    font-size: 300%;
+  }
+  .button{
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+}
+@Media screen and (max-width: 480px) {
+  .content{
+    padding-bottom: 50%;
+  }
+  .content h1 {
+    font-size: 250%;
+  }
+  .button{
+    font-size: 100%;
+    padding: 6px 14px;
+  }
+}

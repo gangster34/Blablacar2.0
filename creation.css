@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+body {
+    font-family: 'Oxygen','Open Sans', 'sans-serif';
+    font-size: 100%;
+    background-color: #JJJ;
+}
+.well{
+  max-width: 300px;
+  min-height: 400px;
+  position: relative;
+  padding-top: 0px;
+  padding-left: 15px;
+  margin-top: 40px;
+  font-size: 13px;
+}
+.depart{
+  margin-top: 30px;
+}
+label{
+float: left;
+}
+.form-group{
+  margin-bottom: 30px;
+}
+#Heure_Depart , #Minute_Depart{
+  max-width: 70px;
+  margin-right: 50px;
+}
